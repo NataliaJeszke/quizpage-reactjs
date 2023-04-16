@@ -1,6 +1,7 @@
 import { CategoryCSS } from "./CategoriesCards/CategoryCSS/CategoryCSS";
 import { CategoryHTML } from "./CategoriesCards/CategoryHTML/CategoryHTML";
 import { CategoryJS } from "./CategoriesCards/CategoryJS/CategoryJS";
+import { Link } from "react-router-dom";
 import style from "./WelcomeStyle.module.css";
 
 export function Welcome() {
@@ -11,9 +12,15 @@ export function Welcome() {
         <h4>Check your knowlage, choose category</h4>
       </header>
       <div className={style.categories_cards}>
-        <CategoryJS />
-        <CategoryCSS />
-        <CategoryHTML />
+        <Link to="/questions">
+          <CategoryJS />
+        </Link>
+        <Link to="/questions">
+          <CategoryCSS />
+        </Link>
+        <Link to="/questions">
+          <CategoryHTML />
+        </Link>
       </div>
     </>
   );
