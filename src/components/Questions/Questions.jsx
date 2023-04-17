@@ -1,3 +1,10 @@
+import { quiz } from "./quiz";
+import Quiz from 'react-quiz-component'
+
 export function Questions() {
-  return <div>Tutaj są pytania</div>;
+  return (
+    <div>
+      <Quiz quiz={quiz} shuffle={true} />
+    </div>
+  );
 }
