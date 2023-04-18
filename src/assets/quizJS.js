@@ -1,4 +1,4 @@
-export const quiz = {
+export const quizJS = {
   quizTitle: "Podstawy JavaScript",
   quizSynopsis:
     "Zestaw pytań z zakresu podstaw JavaScriptu.",
