@@ -32,7 +32,7 @@ img{
 }
 
 .header h1,
-.header h4 {
+.header h2 {
     position: relative;
     z-index: 2;
 }
