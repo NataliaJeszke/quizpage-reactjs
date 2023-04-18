@@ -1,0 +1,11 @@
+.question_container{
+    width: 50%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #97bcabc5;
+    margin-top: 50px;
+}

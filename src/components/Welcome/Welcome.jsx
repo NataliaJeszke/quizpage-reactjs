@@ -10,8 +10,8 @@ export function Welcome() {
     <>
       <header className={style.header}>
         <div className="header_container">
-          <h1>Are you fit for Junior Frontend Developer?</h1>
-          <h4>Check your knowlage, choose category</h4>
+          <h1>Junior Frontend Developer?</h1>
+          <h2>Sprawdź swoją wiedzę</h2>
         </div>
         <div>
           <img src={image} alt="developer at work" />
