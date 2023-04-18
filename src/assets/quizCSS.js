@@ -1,7 +1,23 @@
 export const quizCSS = {
+  appLocale: {
+    question: "Pytanie",
+    landingHeaderText: "5 Pytań",
+    startQuizBtn: "Start Quiz",
+    resultFilterAll: "Wszystkie",
+    resultFilterCorrect: "Poprawne",
+    resultFilterIncorrect: "Błędne",
+    prevQuestionBtn: "Prev",
+    nextQuestionBtn: "Next",
+    resultPageHeaderText:
+      "Koniec quiz'u. Odpowiedziałeś na <correctIndexLength> z <questionLength> pytań.",
+    resultPagePoint: "Zdobyłeś <correctPoints> z <totalPoints>.",
+    singleSelectionTagText: "Jeden wybór",
+    multipleSelectionTagText: "Wielokrotny wybór",
+    pickNumberOfSelection: "Wybierz <numberOfSelection>",
+  },
   quizTitle: "Podstawy CSS",
   quizSynopsis: "Zestaw pytań z zakresu podstaw CSS.",
-  nrOfQuestions: "4",
+  nrOfQuestions: "5",
   questions: [
     {
       question: "Jakie są podstawowe typy danych w JavaScript?",
