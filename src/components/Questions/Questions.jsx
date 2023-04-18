@@ -1,4 +1,4 @@
-import { quiz } from "./quiz";
+import { quiz } from "../../assets/quiz";
 import Quiz from 'react-quiz-component'
 
 export function Questions() {
