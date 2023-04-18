@@ -1,5 +1,7 @@
 import { Welcome } from "./components/Welcome/Welcome";
-import { Questions } from "./components/Questions/Questions";
+import { QuestionsJS } from "./components/Questions/QuestionsJS/QuestionsJS";
+import { QuestionsHTML } from "./components/Questions/QuestionsHTML/QuestionsHTML";
+import { QuestionsCSS } from "./components/Questions/QuestionsCSS/QuestionsCSS";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { NoPage } from "./components/NoPage/NoPage";
 
@@ -9,9 +11,11 @@ export function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Welcome />} />
-          <Route path="/welcome" element={<Welcome/>} />
-          <Route path="/questions" element={<Questions/>} />
-          <Route path="*" element={<NoPage/>} />
+          <Route path="/welcome" element={<Welcome />} />
+          <Route path="/questionsjs" element={<QuestionsJS />} />
+          <Route path="/questionscss" element={<QuestionsCSS />} />
+          <Route path="/questionshtml" element={<QuestionsHTML />} />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
     </>
