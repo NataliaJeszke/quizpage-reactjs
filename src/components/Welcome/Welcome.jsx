@@ -6,7 +6,6 @@ import style from "./WelcomeStyle.module.css";
 import image from "../../assets/programmer.png";
 
 export function Welcome() {
-
   return (
     <>
       <header className={style.header}>
@@ -19,13 +18,13 @@ export function Welcome() {
         </div>
       </header>
       <div className={style.categories_cards}>
-        <Link to="/questions">
-          <CategoryJS/>
+        <Link to="/questionsjs">
+          <CategoryJS />
         </Link>
-        <Link to="/questions">
+        <Link to="/questionscss">
           <CategoryCSS />
         </Link>
-        <Link to="/questions">
+        <Link to="/questionshtml">
           <CategoryHTML />
         </Link>
       </div>

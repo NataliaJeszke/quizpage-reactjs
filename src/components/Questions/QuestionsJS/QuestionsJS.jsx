@@ -1,7 +1,8 @@
-import { quizJS } from "../../assets/quizJS";
+import { quizJS } from "../../../assets/quizJS";
 import Quiz from "react-quiz-component";
 
-export function Questions() {
+export function QuestionsJS() {
+ 
   return (
     <div>
       <Quiz quiz={quizJS} shuffle={true} />
