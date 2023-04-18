@@ -1,12 +1,26 @@
 export const quizJS = {
+  appLocale: {
+    question: "Pytanie",
+    landingHeaderText: "5 Pytań",
+    startQuizBtn: "Start Quiz",
+    resultFilterAll: "Wszystkie",
+    resultFilterCorrect: "Poprawne",
+    resultFilterIncorrect: "Błędne",
+    prevQuestionBtn: "Prev",
+    nextQuestionBtn: "Next",
+    resultPageHeaderText:
+      "Koniec quiz'u. Odpowiedziałeś na <correctIndexLength> z <questionLength> pytań.",
+    resultPagePoint: "Zdobyłeś <correctPoints> z <totalPoints>.",
+    singleSelectionTagText: "Jeden wybór",
+    multipleSelectionTagText: "Wielokrotny wybór",
+    pickNumberOfSelection: "Wybierz <numberOfSelection>",
+  },
   quizTitle: "Podstawy JavaScript",
-  quizSynopsis:
-    "Zestaw pytań z zakresu podstaw JavaScriptu.",
-  nrOfQuestions: "4",
+  quizSynopsis: "Zestaw pytań z zakresu podstaw JavaScriptu.",
+  nrOfQuestions: "5",
   questions: [
     {
-      question:
-        "Jakie są podstawowe typy danych w JavaScript?",
+      question: "Jakie są podstawowe typy danych w JavaScript?",
       questionType: "text",
       answerSelectionType: "single",
       answers: [
@@ -23,24 +37,25 @@ export const quizJS = {
       point: "20",
     },
     {
-        question: "Zaznacz paradygmaty JavaScriptu",
-        questionType: "text",
-        answerSelectionType: "multiple",
-        answers: [
-          "Programowanie funkcyjne",
-          "Programowanie obiektowe",
-          "Testowanie - TDD i BDD",
-          "Programowanie asynchroniczne",
-        ],
-        correctAnswer: [1, 2, 4],
-        messageForCorrectAnswer: "Correct answer. Good job.",
-        messageForIncorrectAnswer: "Incorrect answer. Please try again.",
-        explanation:
-          "Testowanie - to techniki i narzędzia, które pomagają w testowaniu i weryfikowaniu poprawności kodu, takie jak TDD lub BDD.",
-        point: "20",
-      },
+      question: "Zaznacz paradygmaty JavaScriptu",
+      questionType: "text",
+      answerSelectionType: "multiple",
+      answers: [
+        "Programowanie funkcyjne",
+        "Programowanie obiektowe",
+        "Testowanie - TDD i BDD",
+        "Programowanie asynchroniczne",
+      ],
+      correctAnswer: [1, 2, 4],
+      messageForCorrectAnswer: "Correct answer. Good job.",
+      messageForIncorrectAnswer: "Incorrect answer. Please try again.",
+      explanation:
+        "Testowanie - to techniki i narzędzia, które pomagają w testowaniu i weryfikowaniu poprawności kodu, takie jak TDD lub BDD.",
+      point: "20",
+    },
     {
-      question: "Jaką informację otrzymamy porównując następujące wartości: NaN === NaN ?",
+      question:
+        "Jaką informację otrzymamy porównując następujące wartości: NaN === NaN ?",
       questionType: "text",
       answerSelectionType: "single",
       answers: ["true", "false", "undefined", "Error"],
@@ -55,7 +70,12 @@ export const quizJS = {
       question: "Które zdanie jest nieprawdziwe?",
       questionType: "text",
       answerSelectionType: "single",
-      answers: ["var: ma zasięg funkcyjny i nie można jej ponownie deklarować ", "var ma zasięg funkcyjny, a let i const blokowy", "zmienna var podlega hoistingowi", "słowa kluczowe określające zmienne 'let' i 'const' zostały dodane do JavaScriptu w wersji ES6"],
+      answers: [
+        "var: ma zasięg funkcyjny i nie można jej ponownie deklarować ",
+        "var ma zasięg funkcyjny, a let i const blokowy",
+        "zmienna var podlega hoistingowi",
+        "słowa kluczowe określające zmienne 'let' i 'const' zostały dodane do JavaScriptu w wersji ES6",
+      ],
       correctAnswer: "1",
       messageForCorrectAnswer: "Correct answer. Good job.",
       messageForIncorrectAnswer: "Incorrect answer. Please try again.",
@@ -67,12 +87,7 @@ export const quizJS = {
       question: "Która metoda nie zwraca nowej tablicy?",
       questionType: "text",
       answerSelectionType: "single",
-      answers: [
-        "filter()",
-        "map()",
-        "forEach()",
-        "reduce()",
-      ],
+      answers: ["filter()", "map()", "forEach()", "reduce()"],
       correctAnswer: "3",
       messageForCorrectAnswer: "Correct answer. Good job.",
       messageForIncorrectAnswer: "Incorrect answer. Please try again.",
@@ -81,22 +96,17 @@ export const quizJS = {
       point: "20",
     },
     {
-        question: "Wybierz stany Promise",
-        questionType: "text",
-        answerSelectionType: "multiple",
-        answers: [
-          "pending",
-          "resolved",
-          "freeze",
-          "rejected",
-        ],
-        correctAnswer: [1,2,4],
-        messageForCorrectAnswer: "Correct answer. Good job.",
-        messageForIncorrectAnswer: "Incorrect answer. Please try again.",
-        explanation:
-          "Metoda Object.freeze() w JavaScript służy do zamrożenia obiektu, co oznacza, że ​jego wartości nie mogą być zmieniane ani dodawane ani usuwane. Po zamrożeniu obiekt staje się niemodyfikowalny, a każda próba modyfikacji skutkuje błędem.",
-        point: "20",
-      },
+      question: "Wybierz stany Promise",
+      questionType: "text",
+      answerSelectionType: "multiple",
+      answers: ["pending", "resolved", "freeze", "rejected"],
+      correctAnswer: [1, 2, 4],
+      messageForCorrectAnswer: "Correct answer. Good job.",
+      messageForIncorrectAnswer: "Incorrect answer. Please try again.",
+      explanation:
+        "Metoda Object.freeze() w JavaScript służy do zamrożenia obiektu, co oznacza, że ​jego wartości nie mogą być zmieniane ani dodawane ani usuwane. Po zamrożeniu obiekt staje się niemodyfikowalny, a każda próba modyfikacji skutkuje błędem.",
+      point: "20",
+    },
     {
       question: "Co to jest IIFE?",
       questionType: "text",

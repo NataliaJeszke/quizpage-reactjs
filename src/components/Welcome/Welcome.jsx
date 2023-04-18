@@ -14,7 +14,7 @@ export function Welcome() {
           <h4>Check your knowlage, choose category</h4>
         </div>
         <div>
-          <img src={image} alt="Opis obrazka" />
+          <img src={image} alt="developer at work" />
         </div>
       </header>
       <div className={style.categories_cards}>
