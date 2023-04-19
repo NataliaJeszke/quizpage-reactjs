@@ -1,3 +1,20 @@
+# Quiz Page for Junior Frontend Developers
+
+Basic quiz page with 3 categories of questions: JS, CSS and HTML. 
+
+Language: Polish.
+
+## Technologies
+
+ReactJS, react-router-dom, react-quiz-component, pure CSS styling.
+
+
+
+
+
+
+
+====================================================================================
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
