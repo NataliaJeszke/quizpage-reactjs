@@ -5,7 +5,7 @@ import { ButtonBack } from "../ButtonBack/ButtonBack";
 
 export function QuestionsCSS() {
   return (
-    <div>
+    <div className={style.container}>
       <div className={style.question_container}>
         <Quiz quiz={quizCSS} shuffle={true} />
       </div>
