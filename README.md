@@ -8,6 +8,10 @@ Language: Polish.
 
 ReactJS, react-router-dom, react-quiz-component, pure CSS styling.
 
+## Preview of the project
+https://drive.google.com/file/d/1pGnxxAwCP4yvqIIpEFEd0tqxY1Wz8DJZ/view?usp=drivesdk
+and
+https://quizpage-reactjs-8uf03igi3-nataliajeszke.vercel.app/
 
 
 
