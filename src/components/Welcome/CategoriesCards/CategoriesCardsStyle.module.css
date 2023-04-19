@@ -11,6 +11,9 @@
     transform: rotate(45deg);
     margin-top: 100px;
     background-color: #abccbfb8;
+    -webkit-box-shadow: 3px 14px 24px 0px rgba(30, 30, 31, 1);
+-moz-box-shadow: 3px 14px 24px 0px rgba(30, 30, 31, 1);
+box-shadow: 3px 14px 24px 0px rgba(30, 30, 31, 1);
     
 }
 

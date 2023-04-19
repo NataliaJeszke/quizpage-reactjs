@@ -1,0 +1,17 @@
+.back_btn{
+    width: 150px;
+    height: 50px;
+    background-color: #ddc39e;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back_btn:hover{
+    cursor: pointer;
+    background-color: #e6b268;
+    -webkit-box-shadow: 3px 14px 24px 0px rgba(30, 30, 31, 1);
+-moz-box-shadow: 3px 14px 24px 0px rgba(30, 30, 31, 1);
+box-shadow: 3px 14px 24px 0px rgba(30, 30, 31, 1);
+    
+}

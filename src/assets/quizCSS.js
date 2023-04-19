@@ -53,8 +53,8 @@ export const quizCSS = {
       questionType: "text",
       answerSelectionType: "single",
       answers: [
-        "jest to jednostka wielkości, która odnosi się do wielkości zdefiniowanej w rodzicu elementu",
-        "jest to jednostka wielkości, która odnosi się do wielkości zdefiniowanej w root'cie",
+        "jest to jednostka wielkości elementu, która odnosi się do wielkości zdefiniowanej w rodzicu elementu",
+        "jest to jednostka wielkości elementu, która odnosi się do wielkości zdefiniowanej w root'cie",
         "jest to wielkość elementu w odniesieniu do wysokości i szerokości okna przeglądarki",
         " jednostka długości, która odnosi się do jednostek fizycznych, takich jak centymetry, milimetry, cale, punkty itp. Jednakże ich wartość może się różnić w zależności od ustawień ekranu i drukarki, dlatego rzadziej są stosowane w projektowaniu stron internetowych.",
       ],
