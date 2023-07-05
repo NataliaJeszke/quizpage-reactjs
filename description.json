@@ -1,0 +1,6 @@
+[
+    {
+        "technologies": "ReactJS, react-router-dom, react-quiz-component, pure CSS styling.",
+        "description": "Basic quiz page with 3 categories of questions: JS, CSS and HTML."
+    }
+]
